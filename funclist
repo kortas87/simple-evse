@@ -1,9 +1,0 @@
-_relayon: CODE, 370 0 9
-_ledon: CODE, 388 0 9
-_main: CODE, 48 0 249
-_button_flashing: CODE, 297 0 58
-__initialization: CODE, 355 0 12
-_isr: CODE, 4 0 42
-_relayoff: CODE, 379 0 9
-_ledoff: CODE, 397 0 9
-Total: 397
