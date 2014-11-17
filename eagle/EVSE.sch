@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -15219,7 +15219,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">K</text>
 <text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
@@ -15262,6 +15262,13 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pad name="4" x="14.4272" y="0" drill="1.8034" shape="long" rot="R90"/>
 <pad name="5" x="18.3896" y="0" drill="1.8034" shape="long" rot="R90"/>
 </package>
+<package name="PIN-HEADER1">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<pad name="1" x="0" y="0" drill="0.7" shape="octagon" rot="R90"/>
+<text x="0" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -15293,6 +15300,15 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <text x="-0.508" y="0.762" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 <text x="0.254" y="-2.413" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="PIN-HEADER1">
+<wire x1="3.81" y1="0" x2="-1.27" y2="0" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
+<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15386,6 +15402,27 @@ high speed (Philips)</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PIN-HEADER1" prefix="SV" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PIN-HEADER1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIN-HEADER1">
+<connects>
+<connect gate="G$1" pin="3" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -15410,29 +15447,30 @@ high speed (Philips)</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="transistors" deviceset="2N700*" device="_SOT23" technology="2"/>
 <part name="Q2" library="transistors" deviceset="2N700*" device="_SOT23" technology="2"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="5k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="5k6"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="15k"/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
-<part name="LED" library="led" deviceset="LED" device="SMT1206"/>
+<part name="LED_" library="led" deviceset="LED" device="SMT1206"/>
 <part name="SUPPLY10" library="supply2" deviceset="+12V" device=""/>
 <part name="78L05" library="linear" deviceset="78L*" device="F" technology="05"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+12V" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="B/3528-21W" value="22u_25V"/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="B/3528-21W" value="68u_6.3V"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="B/3528-21W" value="68u_6.3V"/>
 <part name="PROG" library="con-lsta" deviceset="FE05-1" device=""/>
 <part name="D2" library="diode" deviceset="ES2D" device=""/>
 <part name="D3" library="diode" deviceset="ES2D" device=""/>
 <part name="D1" library="superlibrary" deviceset="1N4148" device="SMD1206"/>
-<part name="OUT" library="superlibrary" deviceset="MA02-1" device="THT"/>
+<part name="LED" library="superlibrary" deviceset="MA02-1" device="THT"/>
 <part name="SV3" library="superlibrary" deviceset="MT6-5" device=""/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="SV1" library="superlibrary" deviceset="PIN-HEADER1" device=""/>
+<part name="SV2" library="superlibrary" deviceset="PIN-HEADER1" device=""/>
+<part name="SV4" library="superlibrary" deviceset="PIN-HEADER1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15456,29 +15494,30 @@ high speed (Philips)</description>
 <instance part="R3" gate="G$1" x="213.36" y="121.92" rot="R90"/>
 <instance part="R1" gate="G$1" x="203.2" y="134.62"/>
 <instance part="R4" gate="G$1" x="109.22" y="76.2" rot="R90"/>
-<instance part="LED" gate="G$1" x="109.22" y="66.04"/>
+<instance part="LED_" gate="G$1" x="109.22" y="66.04"/>
 <instance part="SUPPLY10" gate="+12V" x="160.02" y="137.16"/>
 <instance part="78L05" gate="G$1" x="35.56" y="124.46"/>
 <instance part="GND3" gate="1" x="38.1" y="152.4"/>
 <instance part="SUPPLY2" gate="+12V" x="22.86" y="162.56"/>
-<instance part="C2" gate="G$1" x="50.8" y="121.92"/>
 <instance part="C4" gate="G$1" x="17.78" y="121.92"/>
-<instance part="C5" gate="G$1" x="58.42" y="121.92"/>
-<instance part="C3" gate="G$1" x="25.4" y="121.92"/>
+<instance part="C5" gate="G$1" x="50.8" y="121.92"/>
 <instance part="GND4" gate="1" x="17.78" y="114.3"/>
 <instance part="C6" gate="G$1" x="81.28" y="114.3"/>
 <instance part="GND9" gate="1" x="81.28" y="106.68"/>
-<instance part="C1" gate="G$1" x="193.04" y="129.54"/>
 <instance part="PROG" gate="G$1" x="17.78" y="71.12" rot="MR180"/>
 <instance part="D2" gate="G$1" x="35.56" y="160.02"/>
 <instance part="D3" gate="G$1" x="149.86" y="124.46" rot="R90"/>
 <instance part="D1" gate="G$1" x="220.98" y="91.44" rot="R90"/>
-<instance part="OUT" gate="G$1" x="71.12" y="68.58"/>
+<instance part="LED" gate="G$1" x="71.12" y="68.58"/>
 <instance part="SV3" gate="-1" x="10.16" y="160.02"/>
 <instance part="SV3" gate="-2" x="10.16" y="154.94"/>
 <instance part="SV3" gate="-3" x="10.16" y="149.86"/>
 <instance part="SV3" gate="-4" x="10.16" y="144.78"/>
 <instance part="SV3" gate="-5" x="10.16" y="139.7"/>
+<instance part="C1" gate="G$1" x="193.04" y="129.54"/>
+<instance part="SV1" gate="G$1" x="48.26" y="93.98"/>
+<instance part="SV2" gate="G$1" x="48.26" y="86.36"/>
+<instance part="SV4" gate="G$1" x="48.26" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -15487,9 +15526,6 @@ high speed (Philips)</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="-"/>
-<wire x1="58.42" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<junction x="50.8" y="116.84"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -15517,11 +15553,11 @@ high speed (Philips)</description>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="LED" gate="G$1" pin="C"/>
+<pinref part="LED_" gate="G$1" pin="C"/>
 <wire x1="78.74" y1="66.04" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
 <junction x="109.22" y="60.96"/>
-<pinref part="OUT" gate="G$1" pin="1"/>
+<pinref part="LED" gate="G$1" pin="1"/>
 <junction x="78.74" y="66.04"/>
 </segment>
 <segment>
@@ -15534,17 +15570,10 @@ high speed (Philips)</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
-<junction x="17.78" y="116.84"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="71.12" x2="33.02" y2="71.12" width="0.1524" layer="91"/>
@@ -15560,6 +15589,10 @@ high speed (Philips)</description>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -15603,9 +15636,10 @@ high speed (Philips)</description>
 <label x="162.56" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
-<label x="22.86" y="144.78" size="1.778" layer="95"/>
-<pinref part="SV3" gate="-4" pin="S"/>
+<label x="22.86" y="139.7" size="1.778" layer="95"/>
+<pinref part="SV3" gate="-5" pin="S"/>
+<wire x1="15.24" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
+<junction x="15.24" y="139.7"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -15620,10 +15654,10 @@ high speed (Philips)</description>
 <segment>
 <wire x1="109.22" y1="68.58" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="LED" gate="G$1" pin="A"/>
+<pinref part="LED_" gate="G$1" pin="A"/>
 <wire x1="78.74" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 <junction x="109.22" y="68.58"/>
-<pinref part="OUT" gate="G$1" pin="2"/>
+<pinref part="LED" gate="G$1" pin="2"/>
 <junction x="78.74" y="68.58"/>
 </segment>
 </net>
@@ -15654,9 +15688,9 @@ high speed (Philips)</description>
 <wire x1="160.02" y1="134.62" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
 <junction x="160.02" y="129.54"/>
-<pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <label x="162.56" y="129.54" size="1.778" layer="95"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="+12V" pin="+12V"/>
@@ -15667,10 +15701,9 @@ high speed (Philips)</description>
 <pinref part="SV3" gate="-1" pin="S"/>
 </segment>
 <segment>
-<label x="22.86" y="139.7" size="1.778" layer="95"/>
-<pinref part="SV3" gate="-5" pin="S"/>
-<wire x1="15.24" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<junction x="15.24" y="139.7"/>
+<wire x1="15.24" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
+<label x="22.86" y="144.78" size="1.778" layer="95"/>
+<pinref part="SV3" gate="-4" pin="S"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15680,12 +15713,9 @@ high speed (Philips)</description>
 <wire x1="43.18" y1="134.62" x2="17.78" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="134.62" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="78L05" gate="G$1" pin="VI"/>
-<wire x1="17.78" y1="124.46" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
 <junction x="17.78" y="124.46"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<junction x="25.4" y="124.46"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -15711,8 +15741,7 @@ high speed (Philips)</description>
 </segment>
 <segment>
 <wire x1="45.72" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="124.46" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="PIC16F1825" gate="G$1" pin="VDD"/>
 <wire x1="63.5" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
@@ -15720,8 +15749,6 @@ high speed (Philips)</description>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="78L05" gate="G$1" pin="VO"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<junction x="58.42" y="124.46"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <junction x="50.8" y="124.46"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
@@ -15778,6 +15805,29 @@ high speed (Philips)</description>
 <label x="218.44" y="134.62" size="1.778" layer="95"/>
 <wire x1="208.28" y1="134.62" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
 <junction x="208.28" y="134.62"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<pinref part="PIC16F1825" gate="G$1" pin="RA5"/>
+<wire x1="55.88" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="SV2" gate="G$1" pin="3"/>
+<pinref part="PIC16F1825" gate="G$1" pin="RC5"/>
+<wire x1="55.88" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="SV4" gate="G$1" pin="3"/>
+<wire x1="55.88" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="81.28" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="PIC16F1825" gate="G$1" pin="RC4"/>
+<wire x1="66.04" y1="86.36" x2="78.74" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
